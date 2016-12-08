@@ -1,4 +1,9 @@
 # Windows image file caches
+*.docx
+*.doc
+*.mht
+*.htm
+/about/LenaBartell_resume_files/*
 Thumbs.db
 ehthumbs.db
 
@@ -13,6 +18,7 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
 
 # Windows shortcuts
 *.lnk
