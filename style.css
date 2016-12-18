@@ -168,6 +168,42 @@ p.photoshoot {
 	margin: 0em 0.25em;
 }
 
+/* ==== XPN A to Z ==== */
+h1.atoz{
+	color: #333;
+	font-size: 1em;
+	font-weight: 600;
+}
+h2.atoz{
+	color: #555;
+	font-size: 1em;
+	font-weight: 600;
+	text-align: left;
+}
+p.atoz {
+	color: #555;
+	text-align: justify;
+	font-size: 1em;
+	margin: 0.5em 0; 
+}
+ul.atoz ul, .atoz li {
+	text-align: left;
+}
+.atoz a, .atoz a:link, .atoz a:visited {
+	color: #888;
+	font: inherit;
+	text-decoration: none;
+	margin: 0;
+}
+.atoz a:hover {
+	color: #888;
+	font: inherit;
+	margin: 0;
+	text-decoration: underline;
+}
+.atoz img {
+	border: 3px solid #777;
+}
 /* ==== Resume page ==== */
 #res_pdf{
 	color: #888;
