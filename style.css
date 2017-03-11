@@ -1,4 +1,4 @@
- /* ==== Basic style defaults ==== */
+ /* ========================= Basic style defaults ========================= */
 html {
 	height: 100%;
 	width: 100%;
@@ -29,7 +29,7 @@ a:active, a:hover {
 }
 
 
-/* ==== Primary page structure ==== */
+/* ========================= Primary page structure ========================= */
 #wrapper{
 	min-height: 100%;
 	width: 80%;
@@ -59,7 +59,7 @@ a:active, a:hover {
 	width: 100%;
 }
 
-/* ==== Header styles ==== */
+/* ============================= Header styles ============================= */
 /* Title */
 #title{
 	font-size: 1.25em;
@@ -95,7 +95,7 @@ a:active, a:hover {
 	margin: 0;
 }
 
-/* ==== Footer styles ==== */
+/* ============================= Footer styles ============================= */
 /* Horizontal divider*/
 #footer hr{
 	margin: 0;
@@ -105,7 +105,7 @@ a:active, a:hover {
 	font-size: 0.8em;
 }
 
-/* ==== Main content styles ==== */
+/* =========================== Main content styles =========================== */
 /* Portfolio / project covers */
 div.cover{
 	margin: 0.5em;
@@ -126,7 +126,7 @@ div:hover.cover{
 	filter: grayscale(0%);
 }
 div.cover p{
-	opacity: 0.0;
+	opacity: 0.75;
 	margin: 0;
 	padding: 0.5em 1em;
 	float: left;
@@ -150,7 +150,7 @@ div.cover a{
 	width: 100%;
 }
 
-/* ==== Photoshoot pictures ==== */
+/* ========================== Photoshoot pictures ========================== */
 h1.photoshoot {
 	color: #333;
 	font-size: 1em;
@@ -168,7 +168,7 @@ p.photoshoot {
 	margin: 0em 0.25em;
 }
 
-/* ==== XPN A to Z ==== */
+/* ========================== XPN A to Z ========================== */
 h1.atoz{
 	color: #333;
 	font-size: 1em;
@@ -204,7 +204,39 @@ ul.atoz ul, .atoz li {
 .atoz img {
 	border: 3px solid #777;
 }
-/* ==== Resume page ==== */
+
+/* ========================== Trails ========================== */
+h1.trails{
+	color: #333;
+	font-size: 1em;
+	font-weight: 600;
+}
+h2.trails{
+	color: #555;
+	font-size: 1em;
+	font-weight: 600;
+	text-align: left;
+}
+p.trails {
+	color: #555;
+	text-align: center;
+	font-size: 1em;
+	margin: 0.5em 0; 
+}
+.trails a, .trails a:link, .trails a:visited {
+	color: #888;
+	font: inherit;
+	text-decoration: none;
+	margin: 0;
+}
+.trails a:hover {
+	color: #888;
+	font: inherit;
+	margin: 0;
+	text-decoration: underline;
+}
+
+/* ============================== Resume page ============================== */
 #res_pdf{
 	color: #888;
 	font-size: 0.9em;
@@ -251,6 +283,11 @@ ul.atoz ul, .atoz li {
 }
 .res_padtopsmall {
 	padding-top: 10px;
+}
+.res_nopad {
+	padding-top: -10px;
+	margin: 0px;
+	margin-top: 5px;: 
 }
 .res_h2{
 	text-align: right;
