@@ -193,7 +193,7 @@ ul.atoz ul, .atoz li {
 .atoz a, .atoz a:link, .atoz a:visited {
 	color: #888;
 	font: inherit;
-	text-decoration: none;
+	text-decoration: underline;
 	margin: 0;
 }
 .atoz a:hover {
