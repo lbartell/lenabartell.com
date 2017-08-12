@@ -135,6 +135,7 @@ div.cover p{
 	font-size: 0.8em;
 	color: white;
 	background-color: #333;
+	top: 0px;
 }
 div:hover.cover p{
 	opacity: 1;
